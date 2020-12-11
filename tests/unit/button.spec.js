@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Button from '../Button/button.vue';
+import Button from '../../src/components/Button/button.vue';
 
 function getMountedComponent(Component, propsData) {
   return shallowMount(Component, {

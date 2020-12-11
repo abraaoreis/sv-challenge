@@ -57,13 +57,15 @@ export default {
 </script>
 
 <style scoped>
+    @import "../../styles/_variables.css";
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
     button{
         color:var(--button-text-color,var(--75-purple-gray));
         background-color: var(--button-background-color,var(--primary));
         padding:12px 46px;
         border-radius:2px;
         text-align: left;
-        font: normal normal bold 12px/17px Open Sans;
+        font: normal normal bold 12px/17px 'Open Sans';
         letter-spacing: 0px;
         text-transform: uppercase;
         border-style:none;
