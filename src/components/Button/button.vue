@@ -57,7 +57,6 @@ export default {
 </script>
 
 <style scoped>
-    @import "../../styles/_variables.css";
     button{
         color:var(--button-text-color,var(--75-purple-gray));
         background-color: var(--button-background-color,var(--primary));

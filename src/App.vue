@@ -17,3 +17,7 @@ export default {
 };
 
 </script>
+<style>
+  @import "./styles/_reset.css";
+  @import "./styles/_variables.css";
+</style>
